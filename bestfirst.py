@@ -92,7 +92,7 @@ def updateDispGrid():
     gridMap.set_data(dispGrid)
     fig.canvas.draw()
     if saveFigs:
-        plt.savefig("/media/najam/Data/Programming/python/path/img/" + str(figNum) + ".png")
+        plt.savefig("./img/" + str(figNum) + ".png")
         figNum += 1
 
 pathGrid = initializeGrid()
