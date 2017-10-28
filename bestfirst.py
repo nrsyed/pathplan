@@ -200,20 +200,6 @@ def findPath():
     cellsExhausted = False  # False if there remain visitable cells, else True
 
     iteration = 0
-    #while (destFound == False and cellsExhausted == False):
-    #    cellsExhausted = True
-    #    for i in range(M):
-    #        for j in range(N):
-    #            if pathGrid[i][j] == currentDepth and modifyAdjacent(i, j):
-    #                cellsExhausted = False
-    #            if destFound: break
-    #        if destFound: break
-    #    updateDispGrid()
-    #    if destFound:
-    #        break
-    #    else:
-    #        currentDepth += 1
-    #    time.sleep(0.05)
     moveAdjacent(startCellIndices[0], startCellIndices[1])
 
     updateDispGrid()
